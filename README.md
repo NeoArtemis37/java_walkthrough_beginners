@@ -59,4 +59,4 @@ The course is organized into logical modules:
 
 3. **Clone this repository**:
    ```bash
-   git clone [your-repository-url]
+   git clone https://github.com/NeoArtemis37/java_walkthrough_beginners.git
