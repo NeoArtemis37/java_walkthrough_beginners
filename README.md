@@ -1,62 +1,35 @@
-# Java Programming for Beginners 🖥️☕
+<img src="artemis-project-cover.svg" alt="Java learning course - Third-party coursework" width="100%" />
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
-[![Java Version](https://img.shields.io/badge/Java-17%2B-orange.svg)](https://www.oracle.com/java/)
+# Java Learning Workbook
 
-Welcome to the **Java Programming for Beginners** course! This comprehensive learning path is designed to take you from absolute beginner to confident Java developer through practical examples and hands-on exercises.
+A personal study copy of the **Java for beginners** course, organised as small exercises and Java source files.
 
-## 📚 Course Objectives
-By the end of this course, you will be able to:
-- Understand fundamental programming concepts
-- Write, compile, and run Java programs
-- Work with object-oriented programming principles
-- Handle exceptions and debug code
-- Create simple Java applications
-- Prepare for more advanced Java topics
+**Status:** learning archive. This repository does not claim to be the original author of the course material.
 
-## 🗂️ Course Structure
-The course is organized into logical modules:
+## Course provenance
 
-### Module 1: Java Basics
-- Setting up Java Development Kit (JDK)
-- Your first "Hello World" program
-- Variables and data types
-- Basic operators and control flow
+[`course-info.yaml`](course-info.yaml) identifies the course as an English-language JetBrains Marketplace learning resource originally created for students of **Hsinchu International School in Taiwan**, then released for the general public. It links to the [Java for beginners course listing](https://plugins.jetbrains.com/plugin/18905-java-for-beginners).
 
-### Module 2: Object-Oriented Programming
-- Classes and objects
-- Inheritance and polymorphism
-- Encapsulation and abstraction
-- Interfaces and abstract classes
+Keep that attribution when sharing the exercises. An upstream course licence has not been independently established by this repository.
 
-### Module 3: Java Core Concepts
-- Exception handling
-- Collections framework
-- File I/O operations
-- Introduction to multithreading
+## Learning path
 
-(... continue with your actual module structure ...)
+The actual folder structure covers:
 
-## 🛠️ Installation Guide
+1. Fundamentals, including structure, variables and operators.
+2. Flow control and conditionals.
+3. Objects and methods.
+4. Arrays and string methods.
+5. ArrayList and two-dimensional arrays.
 
-### Prerequisites
-- Basic computer literacy
-- No prior programming experience required
+Exercises include source files, task descriptions and, where present, test fixtures. The course metadata describes the material as a complement to a regular programming course.
 
-### Setup Instructions
-1. **Install Java**:
-   - [Download JDK 17+](https://www.oracle.com/java/technologies/downloads/)
-   - Verify installation:
-     ```bash
-     java -version
-     javac -version
-     ```
+## Explore and study
 
-2. **Choose an IDE** (Optional but recommended):
-   - [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/)
-   - [Eclipse](https://www.eclipse.org/downloads/)
-   - [VS Code with Java Extension Pack](https://code.visualstudio.com/docs/java/java-tutorial)
+Open an exercise folder, read its `task.md`, then inspect the corresponding `src/` and `test/` files. The repository includes Gradle configuration and educational-plugin metadata. The checked-in build targets Java 8 source compatibility; a modern JDK/Gradle combination has not been verified here.
 
-3. **Clone this repository**:
-   ```bash
-   git clone https://github.com/NeoArtemis37/java_walkthrough_beginners.git
+There is no Gradle wrapper in the snapshot, so a one-command portable setup is not claimed.
+
+## Repository maintenance
+
+Useful improvements include recording the upstream version, clarifying course reuse terms and documenting a verified development environment. This archive shows practice and progression, rather than a standalone application or a newly authored course.
